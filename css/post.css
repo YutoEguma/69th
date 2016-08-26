@@ -1,0 +1,33 @@
+/*----- PC‚ÌCSS -----*/
+.post{
+	width: 30%;
+	padding-left: 20px;
+	border: solid 2px #ccc;
+	margin: 20px;
+	float: left;
+}
+.post a{
+	text-decoration: none;
+}
+.post h2{
+	border-left: solid 10px #e94732;
+	border-bottom: solid 2px #e94732;
+	margin-right: 20px;
+}
+
+.post-meta{
+	text-align: left;
+}
+
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	.post{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}

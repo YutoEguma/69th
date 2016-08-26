@@ -1,0 +1,144 @@
+/*-----------
+
+	PCのCSS
+	
+-------------*/
+/*----- ヘッダー全体 -----*/
+header{
+	height: 70px;
+	border-bottom: solid 3px #ccc;
+}
+/*----- ロゴ -----*/
+.header_logo{
+	height: 70px;
+	margin-right: 20px;
+	float:left;
+}
+
+/*----- PCメニュー -----*/
+.pc_menu li{
+	list-style-type: none;
+	height: 45px;
+	line-height: 20px;
+	text-align: center;
+	width: 8%;
+	margin-top: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 0 5px;
+	padding-top: 10px;
+	float: left;
+	background: #ccc;
+	border-bottom: solid 5px #e94732;
+	border-radius: 7px 7px 0 0 / 7px 7px 0 0;
+}
+.pc_menu li.current-menu-item{
+	background: #e94732;
+}
+.pc_menu a{
+	text-decoration: none;
+	color: Red;
+	font-size: 14px;
+	font-weight:bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/*-- スマホメニュー --*/
+.smp_menu{
+	display: none;
+}
+
+
+/*---------------------
+
+	TabのCSS
+	
+------------------------*/
+@media screen and (max-width:960px){
+	/*----- PCメニュー -----*/
+	.pc_menu{
+		display: none;
+		width: 0;
+	}
+	
+	/*----- スマホメニュー -----*/
+	.smp_menu{
+		display: block;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	.smp_menu input{
+		display: none;
+	}
+	.smp_menu label{
+		float: right;
+		line-height: 50px;
+		margin-top: 8px;
+		margin-right: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		background: #5EC74E;
+		cursor: pointer;
+		text-align: center;
+		border-radius: 7px 7px 7px 7px / 7px 7px 7px 7px;
+		font-weight: bold;
+	}
+	.smp_menu label:hover{
+		background: #ccc;
+	}
+	.smp_menu .smp_menu_contents li{
+		transition: 0.3s;
+		height: 0;
+		width: 0;
+		overflow: hidden;
+	}
+	.smp_menu .smp_menu_contents a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.smp_menu input:checked + .smp_menu_contents ul{
+		-webkit-transition: all 0.8s;
+		-moz-transition: all 0.8s;
+		-ms-transition: all 0.8s;
+		-o-transition: all 0.8s;
+		transition: all 0.8s;
+		margin: 0;padding: 0;
+		list-style: none;
+	}
+	.smp_menu input:checked + .smp_menu_contents li{
+		width: 100%;
+		height: 35px;
+		float: right;
+		margin: 0;
+		padding-top: 12px;
+		line-height: 20px;
+		text-align: center;
+		background: #00FA9A;
+		border-bottom: solid 3px #ccc;
+	}
+	.smp_menu input:checked + .smp_menu_contents li:hover{
+		background: #ccc;
+	}
+	.smp_menu input:checked + .smp_menu_contents li.current-menu-item{
+		background: #e94732;
+	}
+}
+/*--------------------------
+	
+	SmpのCSS
+	
+---------------------------*/
+@media screen and (max-width:800px){
+	/*----- ロゴ -----*/
+	header_logo{
+		height: 60px;
+	}
+}

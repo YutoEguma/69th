@@ -1,0 +1,77 @@
+/*----- PCのCSS -----*/
+/*-- トップイメージ --*/
+.top_img_pc{
+	width: 100%;
+	border-bottom: solid 3px #ccc;
+}
+.top_img_smp{
+	display: none;
+}
+
+/*-- トップスロット --*/
+.top_slot img{
+	border-bottom: solid 3px #ccc;
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+/*-- インフォスロット --*/
+.info_slot{
+	border: solid 3px #ccc;
+	text-align: center;
+	width: 22%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	float: left;
+}
+.info_slot a{
+	text-decoration: none;
+	color: #000000;
+}
+
+/*-- イベントスロット --*/
+.event_slot{
+	border: solid 3px #ccc;
+	width: 22%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	float: left;
+}
+.event_slot img{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*----- TabのCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- SmpのCSS -----*/
+@media screen and (max-width:640px){
+	/*-- トップイメージ --*/
+	.top_img_pc{
+		display: none;
+	}
+	.top_img_smp{
+		border-bottom: solid 3px #ccc;
+		display: block;
+		width:100%;
+	}
+	
+	/*-- トップスロット --*/
+	.top_slot img{
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	/*-- インフォスロット --*/
+	.info_slot{
+		width: 100%;
+	}
+	
+	/*-- イベントスロット --*/
+	.event_slot{
+		width: 100%;
+	}
+}

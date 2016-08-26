@@ -1,0 +1,21 @@
+/*----- PC‚ÌCSS -----*/
+footer{
+	width: 100%;
+	margin-top: 30px;
+	border-top: solid 3px #ccc;
+	border-bottom: solid 3px #ccc;
+}
+
+.copy_right{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}
