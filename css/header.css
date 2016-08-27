@@ -6,7 +6,7 @@
 /*----- ÉwÉbÉ_Å[ëSëÃ -----*/
 header{
 	height: 70px;
-	border-bottom: solid 3px #ccc;
+	border-bottom: solid 3px #80E20B;
 }
 /*----- ÉçÉS -----*/
 .header_logo{
@@ -28,16 +28,16 @@ header{
 	padding: 0 5px;
 	padding-top: 10px;
 	float: left;
-	background: #ccc;
-	border-bottom: solid 5px #e94732;
+	background: #B5E8B0;
+	border-bottom: solid 5px #80E20B;
 	border-radius: 7px 7px 0 0 / 7px 7px 0 0;
 }
 .pc_menu li.current-menu-item{
-	background: #e94732;
+	background: #80E20B;
 }
 .pc_menu a{
 	text-decoration: none;
-	color: Red;
+	color: #000;
 	font-size: 14px;
 	font-weight:bold;
 	display: block;
@@ -80,14 +80,14 @@ header{
 		margin-right: 30px;
 		padding-left: 10px;
 		padding-right: 10px;
-		background: #5EC74E;
+		background: #80E20B;
 		cursor: pointer;
 		text-align: center;
 		border-radius: 7px 7px 7px 7px / 7px 7px 7px 7px;
 		font-weight: bold;
 	}
 	.smp_menu label:hover{
-		background: #ccc;
+		background: #B5E8B0;
 	}
 	.smp_menu .smp_menu_contents li{
 		transition: 0.3s;
@@ -97,7 +97,7 @@ header{
 	}
 	.smp_menu .smp_menu_contents a{
 		text-decoration: none;
-		color: #fff;
+		color: #000;
 		font-size: 20px;
 		font-weight: bold;
 		display: block;
@@ -121,14 +121,14 @@ header{
 		padding-top: 12px;
 		line-height: 20px;
 		text-align: center;
-		background: #00FA9A;
-		border-bottom: solid 3px #ccc;
+		background: #B5E8B0;
+		border-bottom: solid 3px #fff;
 	}
 	.smp_menu input:checked + .smp_menu_contents li:hover{
 		background: #ccc;
 	}
 	.smp_menu input:checked + .smp_menu_contents li.current-menu-item{
-		background: #e94732;
+		background: #80E20B;
 	}
 }
 /*--------------------------

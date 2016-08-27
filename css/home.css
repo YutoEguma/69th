@@ -2,7 +2,7 @@
 /*-- トップイメージ --*/
 .top_img_pc{
 	width: 100%;
-	border-bottom: solid 3px #ccc;
+	border-bottom: solid 3px #B5E8B0;
 }
 .top_img_smp{
 	display: none;
@@ -10,7 +10,7 @@
 
 /*-- トップスロット --*/
 .top_slot img{
-	border-bottom: solid 3px #ccc;
+	border-bottom: solid 3px #B5E8B0;
 	width: 25%;
 	float: left;
 	overflow: hidden;
@@ -54,7 +54,7 @@
 		display: none;
 	}
 	.top_img_smp{
-		border-bottom: solid 3px #ccc;
+		border-bottom: solid 3px #B5E8B0;
 		display: block;
 		width:100%;
 	}

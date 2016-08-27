@@ -8,10 +8,10 @@
 }
 .post a{
 	text-decoration: none;
+	color: #000;
 }
 .post h2{
-	border-left: solid 10px #e94732;
-	border-bottom: solid 2px #e94732;
+	border-bottom: solid 3px #80E20B;
 	margin-right: 20px;
 }
 
