@@ -10,6 +10,7 @@
 @import url("css/footer.css");
 @import url("css/post.css");
 @import url("css/about.css");
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 /*----- 全体のCSS -----*/
 /*----- pcのCSS -----*/
@@ -43,6 +44,9 @@ main{
 	background: #fff;
 	border: solid 3px #80E20B;
 	color: #80E20B;
+}
+p{
+	font-family: 'Noto Sans Japanese', sans-serif;
 }
 
 h1,h2,h3{
