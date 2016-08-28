@@ -6,6 +6,19 @@ footer{
 	border-bottom: solid 3px #80E20B;
 }
 
+.twitter_share_button{
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 45%;
+}
+.face_share_button{
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
 .copy_right{
 	font-weight: bold;
 	text-align: center;

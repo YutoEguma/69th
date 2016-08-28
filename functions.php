@@ -1,4 +1,7 @@
 <?php
+/*-- ファイル読み込み --*/
+require("php/event.php");
+
 /*-- カスタムメニュー対応 --*/
 add_theme_support( 'menus' );
 register_nav_menu( 'header-navi','ヘッダーナビ' );
