@@ -10,6 +10,8 @@
 @import url("css/footer.css");
 @import url("css/post.css");
 @import url("css/about.css");
+
+/*フォントファイルのインポート*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 /*----- 全体のCSS -----*/
@@ -65,7 +67,36 @@ h3:before{
 	content: "●";
 	color: #80E20B;
 }
+table{
+	width: 100%;
+	max-width: 640px;
+	margin-bottom: 15px;
+	border-spacing: 0;
 
+}
+table thead {
+	background:#80E20B ;
+	color: #FFFFFF;
+}
+table thead th {
+	text-align: center;
+}
+
+table tbody th {
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	background: #efefef;
+}
+
+table tbody tr:nth-child(odd) {
+	text-align: center;
+	background-color: #f9f9f9;
+}
+table tbody tr:nth-child(even) {
+	text-align: center;
+	background-color: #FDFDFD;
+}
 
 /*----- tabのCSS -----*/
 @media screen and (max-width:960px){
