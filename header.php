@@ -50,7 +50,7 @@
 		
 		<!-- スマホメニュー -->
 		<nav class="smp_menu">
-			<label for="menu_button">Menu</label>
+			<label for="menu_button">MENU</label>
 			<input id="menu_button" type="checkbox">
 			<div class="smp_menu_contents">
 				<?php wp_nav_menu( array( 'theme_location'=>'header-navi' ) ) ?>

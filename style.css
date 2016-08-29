@@ -38,11 +38,15 @@ main{
 	font-weight: bold;
 	display: block;
 	text-decoration: none;
+	box-shadow: 2px 2px 2px 2px #ccc;
 }
 .more_button a:hover{
 	background: #fff;
 	border: solid 3px #80E20B;
 	color: #80E20B;
+}
+.more_button a:active{
+	box-shadow: 2px 2px 2px 2px #ccc inset;
 }
 
 h1,h2,h3{
