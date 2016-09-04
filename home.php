@@ -63,6 +63,14 @@
 					</p>
 				</a>
 			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<div class="top_about">
+			<h1>九大祭とは?</h1>
+			<div id="top_more_button" class="more_button">
+				<a href="">→ もっと詳しく</a>
+			</div>
 		</div>
 		<div class="clearfix"></div>
 		
@@ -94,5 +102,27 @@
 			<a href="http://localhost/wordpress/category/event/">→ 他の企画はコチラ</a>
 		</div>
 		<div class="clearfix"></div>
+		
+		<div class="top_access">
+			<h1>アクセス</h1>
+			<div id="top_more_button" class="more_button">
+				<a href="">→ もっと詳しく</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+		
+		<div class="top_twitter">
+			<h1>九大祭公式Twitter</h1>
+			<p class="top_twi_meta">
+				九大祭に関する情報を発信しています。フォローをお願いします!
+			</p>
+			<div class="twitter_timeline">
+				<a class="twitter-timeline"  href="https://twitter.com/kyudaisai" data-widget-id="706765554799874048">@kyudaisaiさんのツイート</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
 	</main>
 <?php get_footer(); ?>

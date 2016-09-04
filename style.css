@@ -10,6 +10,7 @@
 @import url("css/footer.css");
 @import url("css/post.css");
 @import url("css/about.css");
+@import url("css/contact.css");
 
 /*フォントファイルのインポート*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
@@ -33,10 +34,10 @@ main{
 	padding: 10px;
 	margin: 5px;
 	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
-	background: #80E20B;
-	border: solid 3px #fff;
+	background: #CDEB8E;
+	border: solid 3px #8DC21F;
 	float: right;
-	color: #fff;
+	color: #5D8705;
 	font-size: 20px;
 	font-weight: bold;
 	display: block;
@@ -44,9 +45,9 @@ main{
 	box-shadow: 2px 2px 2px 2px #ccc;
 }
 .more_button a:hover{
-	background: #fff;
-	border: solid 3px #80E20B;
-	color: #80E20B;
+	background: #8DC21F;
+	border: solid 3px #8DC21F;
+	color: #fff;
 }
 .more_button a:active{
 	box-shadow: 2px 2px 2px 2px #ccc inset;
@@ -59,17 +60,19 @@ h1,h2,h3{
 	font-weight: bold;
 }
 h1{
-	background: #80E20B;
+	background: #8DC21F;
 	color: #fff;
 	padding: 5px;
-	padding-left: 10px;
+	padding-left: 20px;
+	margin-top: 30px;
 }
 h2{
-	border-bottom: solid 3px #80E20B;
+	border-bottom: solid 3px #5D8705;
+	margin-top: 15px;
 }
 h3:before{
 	content: "●";
-	color: #80E20B;
+	color: #5D8705;
 }
 
 table{
@@ -80,8 +83,8 @@ table{
 
 }
 table thead {
-	background:#80E20B ;
-	color: #FFFFFF;
+	background:#CDEB8E;
+	color: #5D8705;
 }
 table thead th {
 	text-align: center;
