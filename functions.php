@@ -23,6 +23,11 @@ add_filter( 'excerpt_more','new_excerpt_more' );
 
 /*--アイキャッチ画像に対応 --*/
 add_theme_support('post-thumbnails');
+
+/*-- 企画紹介のためのショートコード --*/
+add_shortcode('csv2array' , 'csv2array');
+add_shortcode('idimage' , 'idimage');
+
 /*-- jsファイル読み込み --*/
 if (!is_admin()) {
 	function add_files(){
