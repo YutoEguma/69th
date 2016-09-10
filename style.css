@@ -66,6 +66,10 @@ p{
 	font-family: 'Noto Sans Japanese', sans-serif;
 }
 
+a{
+	color: #8dc21f;
+}
+
 h1,h2,h3{
 	font-weight: bold;
 }
@@ -90,30 +94,31 @@ table{
 	max-width: 640px;
 	margin-bottom: 15px;
 	border-spacing: 0;
+	border: 1px solid #5D8705;
 
 }
-table thead {
-	background:#CDEB8E;
+table thead th{
+	background:#8dc21f;
 	color: #5D8705;
-}
-table thead th {
 	text-align: center;
+	border-bottom: 1px solid #5D8705;
 }
 
 table tbody th {
 	font-weight: bold;
 	text-align: center;
 	height: 50px;
-	background: #efefef;
+	background-color: #8dc21f;
 }
 
 table tbody tr:nth-child(odd) {
 	text-align: center;
-	background-color: #f9f9f9;
+	height: 50px;
 }
 table tbody tr:nth-child(even) {
 	text-align: center;
-	background-color: #FDFDFD;
+	height: 50px;
+	background-color: #CDEB8E;
 }
 .smpbr{
 	display: none;
