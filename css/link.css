@@ -1,0 +1,13 @@
+/*----- PC‚ÌCSS -----*/
+.link-list li{
+	list-style:none;
+	margin-bottom:5px;
+}
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}

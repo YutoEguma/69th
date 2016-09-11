@@ -1,0 +1,20 @@
+/*----- PC‚ÌCSS -----*/
+.group2-date{
+	color:red;
+	font-size:130%;
+	line-height:1.2;
+	list-style:none;
+	font-weight:bold;
+	}
+
+p{
+	line-height:1.5;
+	}
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}

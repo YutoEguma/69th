@@ -1,0 +1,39 @@
+/*----- PC‚ÌCSS -----*/
+.about_img{
+	display:block;
+	margin: 0 auto;
+	}
+.about1{
+	display: none;
+}
+.about2{
+	display: none;
+}
+.about3{
+	display: none;
+}
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+	.about_img{
+	display:none;
+	}
+	.about1{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	}
+	.about2{
+	display: block;
+	width:90%;
+	margin: 0 auto;
+	}
+	.about3{
+	display: block;
+	width:90%;
+	margin: 0 auto;
+	}
+}
