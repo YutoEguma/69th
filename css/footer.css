@@ -2,13 +2,29 @@
 footer{
 	width: 100%;
 	margin-top: 30px;
-	border-top: solid 3px #80E20B;
-	border-bottom: solid 3px #80E20B;
+	border-top: solid 3px #8DC21F;
+	border-bottom: solid 3px #8DC21F;
+}
+
+.twitter_share_button{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 45%;
+}
+.face_share_button{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
 }
 
 .copy_right{
-	font-weight: bold;
+	color: #5D8705;
 	text-align: center;
+}
+.copy_right p{
+	margin: 8px;
 }
 
 /*----- Tab‚ÌCSS -----*/
@@ -17,5 +33,7 @@ footer{
 }
 /*----- Smp‚ÌCSS -----*/
 @media screen and (max-width:640px){
-
+	.twitter_share_button{
+		margin-left: 30%;
+	}
 }

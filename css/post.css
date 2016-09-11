@@ -1,22 +1,33 @@
 /*----- PC‚ÌCSS -----*/
 .post{
-	width: 30%;
+	width: 40%;
 	padding-left: 20px;
-	border: solid 2px #ccc;
+	padding-right: 30px;
+	border: solid 2px #8DC21F;
 	margin: 20px;
 	float: left;
+	background: #CDEB8E;
 }
 .post a{
 	text-decoration: none;
-	color: #000;
+	color: #5D8705;
 }
-.post h2{
-	border-bottom: solid 3px #80E20B;
-	margin-right: 20px;
+.post-title{
+	margin-top: 0;
+	width: 92%;
 }
 
 .post-meta{
 	text-align: left;
+}
+.eveny-post-meta{
+	display: block;
+	float: right;
+}
+.post-thumbnail img{
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
 }
 
 /*----- Tab‚ÌCSS -----*/
@@ -29,5 +40,14 @@
 }
 /*----- Smp‚ÌCSS -----*/
 @media screen and (max-width:640px){
-
+	.event-post-meta{
+		clear: both;
+		width: 100%;
+	}
+	.post-thumbnail img{
+		clear: both;
+		margin-bottom: 20px;
+		margin-left: 20%;
+		text-align: center;
+	}
 }

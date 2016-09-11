@@ -1,0 +1,36 @@
+/*----- PC‚ÌCSS -----*/
+.wpcf7 input{
+	width: 70%;
+	border: solid 1px #8DC21F;
+}
+.wpcf7 textarea{
+	width: 90%;
+	border: solid 1px #8DC21F;
+}
+input.wpcf7-submit,input.wpcf7-confirm,input.wpcf7c-elm-step2{
+	display: block;
+	width: 30%;
+	margin-left: 25%;
+	background: #CDEB8B;
+	color: #5D8705;
+	border-radius: 2px 2px 2px 2px / 2px 2px 2px 2px;
+}
+
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	.wpcf7 input{
+		width: 100%;
+	}
+	.wpcf7 textarea{
+		width: 100%;
+	}
+	input.wpcf7-submit,input.wpcf7-confirm,input.wpcf7c-elm-step2{
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+	}
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}

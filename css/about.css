@@ -1,0 +1,13 @@
+/*----- PC‚ÌCSS -----*/
+.a{
+	color: Red;
+}
+
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+
+}

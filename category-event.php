@@ -9,12 +9,16 @@
 			
 			<div id="post-<?php the_ID(); ?>" class="post">
 				<a href="<?php echo esc_url( the_permalink() ); ?>">
-				<h1 class="post-title"><?php the_title(); ?></h1>
-					<p class="post-meta">
-						<span><?php the_date('Y-n-j','更新日: '); ?></span>
-					<?php the_excerpt(); ?>
+					<h1 class="post-title"><?php the_title(); ?></h1>
+					<div class="clearfix"></div>
+					<div class="post-thumbnail">
+						<?php the_post_thumbnail('thumbnail'); ?>
+					</div>
+					<p class="event-post-meta">
+						<?php the_excerpt(); ?>
 					</p>
 				</a>
+				<div class="clearfix"></div>
 			</div>
 			
 			<?php
