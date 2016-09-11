@@ -7,6 +7,9 @@
 	<!-- タイトル -->
 	<title><?php bloginfo( 'name' ); ?></title>
 	
+	<!-- アイコン -->
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/mo-mo.ico">
+
 	<!-- CSSファイル -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"     type="text/css" media="screen">
 	
