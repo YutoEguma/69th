@@ -32,6 +32,7 @@ header{
 	background: #CDEB8B;
 	border-bottom: solid 5px #8DC21F;
 	border-radius: 7px 7px 0 0 / 7px 7px 0 0;
+	font-size: 16px;
 }
 .pc_menu li.current-menu-item{
 	background: #8DC21F;
@@ -90,7 +91,6 @@ header{
 		border-radius: 7px 7px 7px 7px / 7px 7px 7px 7px;
 		border: solid 2px #8DC21F;
 		font-weight: bold;
-		box-shadow: 1px 1px 1px 1px #ccc;
 		color: #5D8705;
 	}
 	.smp_menu label:hover{
@@ -99,7 +99,7 @@ header{
 		color: #fff;
 	}
 	.smp_menu label:active{
-		box-shadow: 1px 1px 1px 1px #ccc inset;
+		box-shadow: 1px 1px 1px 1px #5D8705 inset;
 	}
 	.smp_menu .smp_menu_contents li{
 		transition: all 0.3s;

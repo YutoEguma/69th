@@ -16,7 +16,7 @@ function countDown() {
 	// 残り秒から進行度合いを計算する
 	var nowDate = new Date();
 	var leftSec = nowDate - startDate;
-	var countUp = floatFormat(secSpeed * leftSec,4);
+	var countUp = floatFormat(secSpeed * leftSec,3);
 	
 	
 	
@@ -25,5 +25,6 @@ function countDown() {
 		location.href = "http://kyudaisai.jp/69th/guest";
 	}else{
 		$("span#countUp").html("...接続中...<br><!--残念ながらここに情報はない。続報を待て。--><br>...ゲストの情報をダウンロードしています..." + countUp + "%<br><br>...接続を終了します...");
+		setInterval(countDown, 1000);
 	}
 }

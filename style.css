@@ -22,10 +22,21 @@ body{
 	margin: 0;
 	text-align: justify;
 }
+
 main{
 	width: 90%;
 	margin: 0 auto;
 }
+
+main a{
+	text-decoration: none;
+	color: #8DC21F;
+	margin: 1px;
+} 
+main a:visited{
+	color: #5D8705;
+}
+
 .clearfix{
 	clear: both;
 }
@@ -42,7 +53,6 @@ main{
 	font-weight: bold;
 	display: block;
 	text-decoration: none;
-	box-shadow: 2px 2px 2px 2px #ccc;
 }
 .more_button a:hover{
 	background: #8DC21F;
@@ -50,7 +60,7 @@ main{
 	color: #fff;
 }
 .more_button a:active{
-	box-shadow: 2px 2px 2px 2px #ccc inset;
+	box-shadow: 1px 1px 1px 1px #5D8705 inset;
 }
 p{
 	font-family: 'Noto Sans Japanese', sans-serif;
@@ -110,14 +120,20 @@ table tbody tr:nth-child(even) {
 	height: 50px;
 	background-color: #CDEB8E;
 }
+.smpbr{
+	display: none;
+}
 
 /*----- tabのCSS -----*/
 @media screen and (max-width:960px){
-.pcbr{
-	display: none;
+	.pcbr{
+		display: none;
+	}
 }
 
 /*----- smpのCSS -----*/
 @media screen and (max-width:640px){
-	
+	.smpbr{
+		display:inline;
+	}
 }

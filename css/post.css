@@ -1,8 +1,8 @@
 /*----- PC‚ÌCSS -----*/
 .post{
-	width: 25%;
+	width: 40%;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 30px;
 	border: solid 2px #8DC21F;
 	margin: 20px;
 	float: left;
@@ -13,6 +13,7 @@
 	color: #5D8705;
 }
 .post-title{
+	margin-top: 0;
 	width: 92%;
 }
 

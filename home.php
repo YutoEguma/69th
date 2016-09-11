@@ -115,7 +115,7 @@
 		<div class="top_twitter">
 			<h1>九大祭公式Twitter</h1>
 			<p class="top_twi_meta">
-				九大祭に関する情報を発信しています。フォローをお願いします!
+				九大祭に関する情報を発信しています。<br class="smpbr">フォローをお願いします!
 			</p>
 			<div class="twitter_timeline">
 				<a class="twitter-timeline"  href="https://twitter.com/kyudaisai" data-widget-id="706765554799874048">@kyudaisaiさんのツイート</a>
