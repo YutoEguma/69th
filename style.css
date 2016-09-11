@@ -1,4 +1,4 @@
-/*------------------------------------------------
+﻿/*------------------------------------------------
 	Theme name : Kyudaisai 69th for WP
 	Author : Exective Comitee of Kyudaisai 69th
 ---------------------------------------------------*/
@@ -9,7 +9,11 @@
 @import url("css/header.css");
 @import url("css/footer.css");
 @import url("css/post.css");
-
+@import url("css/link.css");
+@import url("css/group.css");
+@import url("css/group1.css");
+@import url("css/group2.css");
+@import url("css/about-img.css");
 /*----- 全体のCSS -----*/
 /*----- pcのCSS -----*/
 body{
