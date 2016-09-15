@@ -18,13 +18,19 @@ function countDown() {
 	var leftSec = nowDate - startDate;
 	var countUp = floatFormat(secSpeed * leftSec,3);
 	
-	
+	// カウントダウン
+	var a_day = 24 * 60 * 60 * 1000;
+	var d = Math.floor(leftSec / a_day) 
+	var h = Math.floor((leftSec % a_day) / (60 * 60 * 1000)) 
+	var m = Math.floor((leftSec % a_day) / (60 * 1000)) % 60 
+	var s = Math.floor((leftSec % a_day) / 1000) % 60 % 60 
 	
 	// 100%を超えたら遷移、それ以外はカウントアップ
 	if(countUp > 100){
 		location.href = "http://kyudaisai.jp/69th/guest";
 	}else{
-		$("span#countUp").html("...接続中...<br><!--残念ながらここに情報はない。続報を待て。--><br>...ゲストの情報をダウンロードしています..." + countUp + "%<br><br>...接続を終了します...");
+		$("span#countUp").html(
+			"<p style='text-align: center; font-family: \'Concert One\', cursive;'>" + countUp + "%<br><br>" + d + "日" + h + "時" + m + "分" + s + "秒</p>");
 		setInterval(countDown, 1000);
 	}
 }
