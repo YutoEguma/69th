@@ -12,7 +12,7 @@
 
 	<!-- CSSファイル -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"     type="text/css" media="screen">
-	
+
 	<!-- Facebookのシェアのための設定 -->
 	<meta property="og:type"  content="website">
 	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/top_img_smp.jpg"/>

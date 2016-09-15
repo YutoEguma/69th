@@ -11,7 +11,6 @@
 				<a href="<?php echo esc_url( the_permalink() ); ?>">
 				<h1 class="post-title"><?php the_title(); ?></h1>
 					<p class="post-meta">
-						<span><?php the_date('Y-n-j','更新日: '); ?></span>
 					<?php the_excerpt(); ?>
 					</p>
 				</a>
