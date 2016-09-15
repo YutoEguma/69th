@@ -91,6 +91,8 @@ header{
 	color:#fff;
 }
 
+
+
 /*---------------------
 
 	Tab‚ÌCSS
@@ -186,9 +188,8 @@ header{
 	.smp_menu input:checked + .smp_menu_contents li.current-menu-item a{
 		color: #fff;
 	}
-
 	.searchform{
-		display: none;
+		display:none;
 	}
 }
 

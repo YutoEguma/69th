@@ -63,6 +63,9 @@
 }
 /*----- Smp‚ÌCSS -----*/
 @media screen and (max-width:640px){
+	.post{
+		width: 75%;
+	}
 	.event-post-meta{
 		clear: both;
 		width: 100%;

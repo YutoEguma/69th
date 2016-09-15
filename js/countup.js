@@ -30,7 +30,7 @@ function countDown() {
 		location.href = "http://kyudaisai.jp/69th/guest";
 	}else{
 		$("span#countUp").html(
-			"<p style='text-align: center; font-family: \'Concert One\', cursive;'>" + countUp + "%<br><br>" + d + "日" + h + "時" + m + "分" + s + "秒</p>");
+			"<p style='text-align: center; font-family: \'Concert One\', cursive;'>" + countUp + "%<br><br>" + d + "日" + h + "時間" + m + "分" + s + "秒</p>");
 		setInterval(countDown, 1000);
 	}
 }

@@ -26,6 +26,7 @@
 	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/top_img_pc.jpg">
 	<meta property="og:type" content="website" />
 	<meta property="og:url" contetnt="[http://www.kyudaisai.jp]">
+	<meta name="theme-color" content="#CDEB8E">
 	
 	<?php wp_head(); ?>
 </head>
