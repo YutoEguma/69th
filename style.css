@@ -35,12 +35,9 @@ main{
 
 main a{
 	text-decoration: none;
-	color: #8DC21F;
+	color: #5D8705;
 	margin: 1px;
 } 
-main a:visited{
-	color: #5D8705;
-}
 
 .clearfix{
 	clear: both;
