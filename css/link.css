@@ -1,7 +1,7 @@
 /*----- PC‚ÌCSS -----*/
 .link-list li{
 	list-style:none;
-	margin-bottom:5px;
+	line-height:1.4
 }
 /*----- Tab‚ÌCSS -----*/
 @media screen and (max-width:960px){

@@ -1,6 +1,11 @@
 /*----- PC‚ÌCSS -----*/
-.a{
-	color: Red;
+.about-date{
+	color: red;
+	font-size: x-large;
+	font-weight: bold;
+}
+.momoka-txt{
+	float:right;
 }
 
 /*----- Tab‚ÌCSS -----*/
