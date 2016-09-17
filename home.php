@@ -68,13 +68,18 @@
 		
 		<div class="top_about">
 			<h1>九大祭とは?</h1>
+			<img class="top_momoka" src="<?php echo get_template_directory_uri(); ?>/img/momoka.png">
+			<p class="top_about_meta">
+				九大祭は、毎年11月に九州大学伊都キャンパスにて開催されます。九州大学最大の学園祭であり、今回で69回目の開催となる、非常に歴史あるものです。当日は、九大生による100を超えるテント企画や、多様な活動を発表・展示する教室企画、多彩なパフォーマンスを披露するステージ企画に加え、"ミスター九大・ミス九大コンテスト"や九大人気講師による特別講義など、九大生に限らず多くの方々に楽しんでいただける企画が満載です。皆様のご来場を心よりお待ちしております。
+			</p>
+			<div class="clearfix"></div>
 			<div id="top_more_button" class="more_button">
-				<a href="">→ もっと詳しく</a>
+				<a href="">詳しくはこちら</a>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 		
-		<div class="event_info">
+		<!--div class="event_info">
 			<h1>企画紹介</h1>
 			<div class="event_slot">
 				<a href="">
@@ -99,14 +104,14 @@
 		</div>
 		<div class="clearfix"></div>
 		<div id="top_more_button" class="more_button">
-			<a href="http://localhost/wordpress/category/event/">→ 他の企画はコチラ</a>
+			<a href="http://localhost/wordpress/category/event/">他の企画はこちら</a>
 		</div>
-		<div class="clearfix"></div>
+		<div class="clearfix"></div-->
 		
 		<div class="top_access">
 			<h1>アクセス</h1>
 			<div id="top_more_button" class="more_button">
-				<a href="">→ もっと詳しく</a>
+				<a href="">→詳しくはこちら</a>
 			</div>
 		</div>
 		<div class="clearfix"></div>

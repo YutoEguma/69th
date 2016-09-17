@@ -1,5 +1,5 @@
 /*----- PC‚ÌCSS -----*/
-.wpcf7 input{
+.wpcf7-text{
 	width: 70%;
 	border: solid 1px #8DC21F;
 }
@@ -18,7 +18,7 @@ input.wpcf7-submit,input.wpcf7-confirm,input.wpcf7c-elm-step2{
 
 /*----- Tab‚ÌCSS -----*/
 @media screen and (max-width:960px){
-	.wpcf7 input{
+	.wpcf7-text{
 		width: 100%;
 	}
 	.wpcf7 textarea{

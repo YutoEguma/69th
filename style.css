@@ -123,7 +123,17 @@ table tbody tr:nth-child(even) {
 	height: 50px;
 	background-color: #CDEB8E;
 }
+
 .smpbr{
+	display: none;
+}
+
+.img_pc{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+.img_smp{
 	display: none;
 }
 
@@ -139,7 +149,13 @@ table tbody tr:nth-child(even) {
 	.smpbr{
 		display:inline;
 	}
-	h2{
-		text-align: center;
+
+	.img_pc{
+		display: none;
+	}
+	.img_smp{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
 	}
 }
