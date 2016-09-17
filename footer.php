@@ -9,6 +9,11 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
+		<!-- 検索フォーム -->
+		<div class="smp_searchform">
+			<?php get_search_form(); ?>
+		</div>
+		<div class="clearfix"></div>
 		<div class="copy_right">
 			<p>copyright (C) 第69回九大祭実行委員会. All rights reserved.</p>
 		</div>

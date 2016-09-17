@@ -38,7 +38,7 @@ function add_files(){
 add_action( 'wp_enqueue_scripts', 'add_files' );
 /*-- マップ読み込み --*/
 function add_map(){
-	if(is_page('Access')){
+	if(is_page('access')){
 		wp_enqueue_script( 'GoogleMapAPI', '//maps.googleapis.com/maps/api/js?key=AIzaSyDk-Ww0ELsc6gHMZjrgyYhl2LTKH8kKDsU&callback=initMap', array( 'map' ), '', true);
 		wp_enqueue_script( 'map', get_template_directory_uri() . '/js/map.js', array(), '', true);
 	}
@@ -46,7 +46,7 @@ function add_map(){
 add_action( 'wp_enqueue_scripts', 'add_map' );
 /*-- スペシャル読み込み --*/
 function add_special(){
-	if(is_page('Special')){
+	if(is_page('special')){
 		// countupの読み込み
 		wp_enqueue_script( 'countUp', get_template_directory_uri() . '/js/countup.js', array('jquery'), '', true);
 	}

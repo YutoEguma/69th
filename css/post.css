@@ -10,7 +10,10 @@
 }
 .post a{
 	text-decoration: none;
-	color: #5D8705;
+	color: #000;
+}
+.post a:visited{
+	color: #000;
 }
 .post-title{
 	margin-top: 0;
@@ -20,7 +23,7 @@
 .post-meta{
 	text-align: left;
 }
-.eveny-post-meta{
+.event-post-meta{
 	display: block;
 	float: right;
 }
@@ -28,6 +31,26 @@
 	margin-bottom: 20px;
 	margin-right: 20px;
 	float: left;
+}
+
+.screen-reader-text{
+	display: none;
+}
+.nav-links{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.nav-links .page-numbers{
+	font-size: 20px;
+	font-weight: bold;
+	color: #5D8705;
+	background: #CDEB8E;
+	padding: 5px;
+	border: solid 2px #8DC21F;
+}
+.nav-links .current{
+	color: #fff;
+	background: #8DC21F;
 }
 
 /*----- Tab‚ÌCSS -----*/
@@ -40,6 +63,9 @@
 }
 /*----- Smp‚ÌCSS -----*/
 @media screen and (max-width:640px){
+	.post{
+		width: 75%;
+	}
 	.event-post-meta{
 		clear: both;
 		width: 100%;

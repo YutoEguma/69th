@@ -16,10 +16,11 @@
 @import url("css/contact.css");
 @import url("css/guest.css");
 
+
 /*フォントファイルのインポート*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/css?family=Concert+One);
 
->>>>>>> cf978df59f2a0f2a3b2c5f4143b926be85505608
 /*----- 全体のCSS -----*/
 /*----- pcのCSS -----*/
 body{
@@ -35,12 +36,9 @@ main{
 
 main a{
 	text-decoration: none;
-	color: #8DC21F;
+	color: #5D8705;
 	margin: 1px;
 } 
-main a:visited{
-	color: #5D8705;
-}
 
 .clearfix{
 	clear: both;
@@ -140,5 +138,8 @@ table tbody tr:nth-child(even) {
 @media screen and (max-width:640px){
 	.smpbr{
 		display:inline;
+	}
+	h2{
+		text-align: center;
 	}
 }

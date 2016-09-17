@@ -1,14 +1,14 @@
 /*-----------
 
-	PC‚ÌCSS
+	PCâ€šÃŒCSS
 	
 -------------*/
-/*----- ƒwƒbƒ_[‘S‘Ì -----*/
+/*----- Æ’wÆ’bÆ’_Â[â€˜Sâ€˜ÃŒ -----*/
 header{
 	height: 70px;
 	border-bottom: solid 3px #8DC21F;
 }
-/*----- ƒƒS -----*/
+/*----- Æ’ÂÆ’S -----*/
 .header_logo{
 	height: 70px;
 	margin-left: 10px;
@@ -16,7 +16,7 @@ header{
 	float:left;
 }
 
-/*----- PCƒƒjƒ…[ -----*/
+/*----- PCÆ’ÂÆ’jÆ’â€¦Â[ -----*/
 .pc_menu li{
 	list-style-type: none;
 	height: 45px;
@@ -56,25 +56,56 @@ header{
 	height: 100%;
 }
 
-/*-- ƒXƒ}ƒzƒƒjƒ…[ --*/
+/*-- Æ’XÆ’}Æ’zÆ’ÂÆ’jÆ’â€¦Â[ --*/
 .smp_menu{
 	display: none;
 }
 
+/*--  --*/
+.searchform{
+	width: 10%;
+	margin-top: 16px;
+	margin-right: 2%;
+	display: block;
+	float:right;
+}
+.search_field{
+	border: solid 2px #8DC21F;
+	background: #CDEB8E;
+	width: 100%;
+	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+}
+.search_button{
+	float: right;
+	font-weight: bold;
+	padding: 2px;
+	border:solid 2px #8DC21F;
+	background: #CDEB8E;
+	color: #5D8705;
+	width: 50%;
+	margin-top: 2px;
+	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+}
+.search_button:hover{
+	background: #8DC21F;
+	color:#fff;
+}
+
+
 
 /*---------------------
 
-	Tab‚ÌCSS
+	Tabâ€šÃŒCSS
 	
 ------------------------*/
 @media screen and (max-width:960px){
-	/*----- PCƒƒjƒ…[ -----*/
+	/*----- PCÆ’ÂÆ’jÆ’â€¦Â[ -----*/
 	.pc_menu{
 		display: none;
 		width: 0;
 	}
 	
-	/*----- ƒXƒ}ƒzƒƒjƒ…[ -----*/
+	/*----- Æ’XÆ’}Æ’zÆ’ÂÆ’jÆ’â€¦Â[ -----*/
 	.smp_menu{
 		display: block;
 		width: 100%;
@@ -157,14 +188,18 @@ header{
 	.smp_menu input:checked + .smp_menu_contents li.current-menu-item a{
 		color: #fff;
 	}
+	.searchform{
+		display:none;
+	}
 }
+
 /*--------------------------
 	
-	Smp‚ÌCSS
+	Smpâ€šÃŒCSS
 	
 ---------------------------*/
 @media screen and (max-width:800px){
-	/*----- ƒƒS -----*/
+	/*----- Æ’ÂÆ’S -----*/
 	.header_logo{
 		height: 50px;
 		margin-top:10px;
