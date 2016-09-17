@@ -1,0 +1,48 @@
+/*----- PC‚ÌCSS -----*/
+.coop_button_co a{
+	background: #F0BA32;
+	margin-left: 30%;
+	margin-right: 20px;
+	border: solid 2px #F0BA32;
+}
+.coop_button_co a:hover{
+	background-color: #fff;
+	color: #F0BA32;
+	border: solid 2px #F0BA32;
+}
+.coop_button_co a:active{
+	box-shadow: 2px 2px #8B6609 inset;
+}
+.coop_button_uni a{
+	background: #D04255;
+	border: solid 2px #D04255;
+}
+.coop_button_uni a:hover{
+	background-color: #fff;
+	color: #D04255;
+	border: solid 2px #D04255;
+}
+.coop_button_uni a:active{
+	box-shadow: 2px 2px #932736 inset;
+}
+.coop_button_co a,.coop_button_uni a{
+	font-size: 25px;
+	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding: 15px 30px;
+}
+
+/*----- Tab‚ÌCSS -----*/
+@media screen and (max-width:960px){
+	
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+	.coop_button_co a,.coop_button_uni a{
+		width: 70%;
+		margin-left: 10%;
+		margin-top: 20px;
+	}
+}
