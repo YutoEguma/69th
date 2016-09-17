@@ -139,4 +139,7 @@ table tbody tr:nth-child(even) {
 	.smpbr{
 		display:inline;
 	}
+	h2{
+		text-align: center;
+	}
 }

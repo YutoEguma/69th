@@ -1,11 +1,11 @@
 /*----- PCÇÃCSS -----*/
 .guest_img{
-	width: 30%;
+	width: 20%;
 	margin-right: 2%;
 	float: left;
 }
 .guest_meta{
-	width: 66%;
+	width:65%;
 	float: left;
 }
 
@@ -31,13 +31,12 @@
 /*----- SmpÇÃCSS -----*/
 @media screen and (max-width:640px){
 	.guest_img{
-		width: 90%;
-		margin-left: 5%;
-		margin-bottom: 10px;
+		width: 85%;
+		margin-left: 9%;
 	}
 	.guest_meta{
 		width: 90%;
-		margin-left: 5%;
+		margin-left: 7%;
 	}
 	
 	/*-- specialÇÃê›íË --*/
