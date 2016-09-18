@@ -1,8 +1,20 @@
 /*----- PC‚ÌCSS -----*/
 .link-list li{
 	list-style:none;
-	line-height:1.4
+	line-height: 27px;
+	font-family: 'Noto Sans Japanese', sans-serif;
 }
+
+.twi_momoka,.face_momoka{
+	height: 60px;
+	float:left;
+}
+.snsmeta{
+	line-height:60px;
+	margin-left: 15px;
+	float:left;
+}
+
 /*----- Tab‚ÌCSS -----*/
 @media screen and (max-width:960px){
 	

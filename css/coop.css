@@ -1,9 +1,9 @@
 /*----- PC‚ÌCSS -----*/
 .coop_button_co a{
 	background: #F0BA32;
-	margin-left: 30%;
-	margin-right: 20px;
 	border: solid 2px #F0BA32;
+	float: left;
+	margin-left: 15%;
 }
 .coop_button_co a:hover{
 	background-color: #fff;
@@ -16,6 +16,8 @@
 .coop_button_uni a{
 	background: #D04255;
 	border: solid 2px #D04255;
+	float:right;
+	margin-right: 15%;
 }
 .coop_button_uni a:hover{
 	background-color: #fff;
@@ -28,21 +30,45 @@
 .coop_button_co a,.coop_button_uni a{
 	font-size: 25px;
 	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
-	float: left;
 	text-align: center;
 	color: #fff;
 	padding: 15px 30px;
 }
 
+.coop_img_pc{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.coop_img_smp{
+	display:none;
+}
+
 /*----- Tab‚ÌCSS -----*/
 @media screen and (max-width:960px){
-	
+	.coop_button_co a{
+		margin-left: 1%;
+	}
+	.coop_button_uni a{
+		margin-right: 1%;
+	}
 }
 /*----- Smp‚ÌCSS -----*/
 @media screen and (max-width:640px){
 	.coop_button_co a,.coop_button_uni a{
+		float:left;
 		width: 70%;
 		margin-left: 10%;
 		margin-top: 20px;
+		margin-right: 0;
+	}
+
+	.coop_img_pc{
+		display: none;
+	}
+	.coop_img_smp{
+		display:block;
+		width: 90%;
+		margin: 0 auto;
 	}
 }

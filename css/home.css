@@ -1,5 +1,5 @@
-/*----- PC‚ÌCSS -----*/
-/*-- ƒgƒbƒvƒCƒ[ƒW --*/
+/*----- PCâ€šÃŒCSS -----*/
+/*-- Æ’gÆ’bÆ’vÆ’CÆ’ÂÂ[Æ’W --*/
 .top_img_pc{
 	width: 100%;
 	border-bottom: solid 3px #CDEB8E;
@@ -9,28 +9,40 @@
 }
 
 
-/*-- ƒgƒbƒvƒXƒƒbƒg --*/
+/*-- Æ’gÆ’bÆ’vÆ’XÆ’ÂÆ’bÆ’g --*/
 .top_slot img{
 	border-bottom: solid 3px #CDEB8E;
 	width: 25%;
 	float: left;
 	overflow: hidden;
 }
+.top_slot img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
 
-/*-- ƒCƒ“ƒtƒHƒXƒƒbƒg --*/
+/*-- Æ’CÆ’â€œÆ’tÆ’HÆ’XÆ’ÂÆ’bÆ’g --*/
 .info_slot{
 	background: #CDEB8E;
 	border: solid 3px #8DC21F;
+	border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
 	text-align: center;
 	width: 20%;
+	padding: 5px;
 	margin-left: 1%;
 	margin-right: 2%;
 	margin-bottom: 20px;
 	float: left;
 }
 .info_slot a{
+	width:92%;
+	height:90%;
+	margin:0;
 	text-decoration: none;
-	color: #5D8705;
+	color: #000;
+}
+.info_slot a:hover{
+	color:#fff;
 }
 
 /*--  */
@@ -46,9 +58,8 @@
 	float: left;
 }
 
-/*-- ƒCƒxƒ“ƒgƒXƒƒbƒg --*/
+/*-- Æ’CÆ’xÆ’â€œÆ’gÆ’XÆ’ÂÆ’bÆ’g --*/
 .event_slot{
-	border: solid 3px #8DC21F;
 	width: 20%;
 	margin-left: 1%;
 	margin-right: 2%;
@@ -57,10 +68,19 @@
 }
 .event_slot img{
 	width: 100%;
+	border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
 	overflow: hidden;
 }
+.event_slot img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.event_slot a{
+	height: 0;
+	margin: 0;
+}
 
-/*-- moreƒ{ƒ^ƒ“ --*/
+/*-- moreÆ’{Æ’^Æ’â€œ --*/
 #top_more_button{
 	margin-right: 5%;
 }
@@ -75,7 +95,7 @@
 	margin-left: 23%;
 }
 
-/*----- Tab‚ÌCSS -----*/
+/*----- Tabâ€šÃŒCSS -----*/
 @media screen and (max-width:960px){
 	/*-- twitter_timeline --*/
 	.twitter_timeline{
@@ -88,9 +108,9 @@
 	}
 	
 }
-/*----- Smp‚ÌCSS -----*/
+/*----- Smpâ€šÃŒCSS -----*/
 @media screen and (max-width:640px){
-	/*-- ƒgƒbƒvƒCƒ[ƒW --*/
+	/*-- Æ’gÆ’bÆ’vÆ’CÆ’ÂÂ[Æ’W --*/
 	.top_img_pc{
 		display: none;
 	}
@@ -100,13 +120,13 @@
 		width:100%;
 	}
 	
-	/*-- ƒgƒbƒvƒXƒƒbƒg --*/
+	/*-- Æ’gÆ’bÆ’vÆ’XÆ’ÂÆ’bÆ’g --*/
 	.top_slot img{
 		width: 100%;
 		overflow: hidden;
 	}
 	
-	/*-- ƒCƒ“ƒtƒHƒXƒƒbƒg --*/
+	/*-- Æ’CÆ’â€œÆ’tÆ’HÆ’XÆ’ÂÆ’bÆ’g --*/
 	.info_slot{
 		width: 100%;
 		margin-left: 0;
@@ -115,7 +135,7 @@
 	
 	/*--  */
 	.top_momoka{
-		width: 20%;
+		width: 25%;
 		margin-top:0;
 		margin-left: 40%;
 	}
@@ -124,7 +144,7 @@
 		margin: 0;
 	}
 
-	/*-- ƒCƒxƒ“ƒgƒXƒƒbƒg --*/
+	/*-- Æ’CÆ’xÆ’â€œÆ’gÆ’XÆ’ÂÆ’bÆ’g --*/
 	.event_slot{
 		width: 100%;
 		margin-left: 0;

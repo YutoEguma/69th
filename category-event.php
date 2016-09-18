@@ -14,6 +14,7 @@
 					<div class="post-thumbnail">
 						<?php the_post_thumbnail('thumbnail'); ?>
 					</div>
+					<div class="smpclear"></div>
 					<p class="event-post-meta">
 						<?php the_excerpt(); ?>
 					</p>

@@ -32,8 +32,27 @@
 		<div class="newinfo">
 			<h1>更新情報</h1>
 			<div class="info_slot">
-				<a href="">
+				<!--a href=""-->
 					<P>
+						2016.10.1(土)<br><br>
+						九大祭公式ホームページをリニューアルしました!
+						随時更新していきますのでブックマークをお願いします!<br>
+					</P>				
+				<!--/a-->
+			</div>
+			<div class="info_slot">
+				<a href="http://localhost/wordpress/category/%E4%BC%81%E7%94%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E7%9A%86%E6%A7%98%E3%81%B8/">
+					<p>
+						2016.10.1(土)<br><br>
+						【企画団体の皆様へ】<br>
+						第一回企画説明会に関する情報を公開しました。
+						参加する団体の皆様はご確認ください。<br>
+					</p>
+				</a>
+			</div>
+			<div class="info_slot">
+				<a href="">
+					<p>
 						2016.8.14(日)<br><br>
 						更新しました<br>
 					</p>
@@ -41,23 +60,7 @@
 			</div>
 			<div class="info_slot">
 				<a href="">
-					<P>
-						2016.8.14(日)<br><br>
-						更新しました<br>
-					</p>
-				</a>
-			</div>
-			<div class="info_slot">
-				<a href="">
-					<P>
-						2016.8.14(日)<br><br>
-						更新しました<br>
-					</p>
-				</a>
-			</div>
-			<div class="info_slot">
-				<a href="">
-					<P>
+					<p>
 						2016.8.14(日)<br><br>
 						更新しました<br>
 					</p>
@@ -79,7 +82,7 @@
 		</div>
 		<div class="clearfix"></div>
 		
-		<!--div class="event_info">
+		<div class="event_info">
 			<h1>企画紹介</h1>
 			<div class="event_slot">
 				<a href="">
@@ -106,7 +109,7 @@
 		<div id="top_more_button" class="more_button">
 			<a href="http://localhost/wordpress/category/event/">他の企画はこちら</a>
 		</div>
-		<div class="clearfix"></div-->
+		<div class="clearfix"></div>
 		
 		<div class="top_access">
 			<h1>アクセス</h1>

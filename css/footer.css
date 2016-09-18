@@ -24,6 +24,7 @@ footer{
 	text-align: center;
 }
 .copy_right p{
+	font-family: 'Noto Sans Japanese', sans-serif;
 	margin: 8px;
 }
 
@@ -33,12 +34,20 @@ footer{
 
 /*----- Tab‚ÌCSS -----*/
 @media screen and (max-width:960px){
+		
+}
+/*----- Smp‚ÌCSS -----*/
+@media screen and (max-width:640px){
+	.twitter_share_button{
+		margin-left: 30%;
+	}
+
 	.smp_searchform{
-		margin-left: 42%;
+		margin-left: 12%;
 		display: block;
 	}
 	.smp_searchform .search_field{
-		width:32%;
+		width:60%;
 		margin-top: 7px;
 		margin-right: 3px;
 		border: solid 2px #8DC21F;
@@ -47,7 +56,7 @@ footer{
 		float: left;
 	}
 	.smp_searchform .search_button{
-		width:12%;
+		width: 20%;
 		float: left;
 		font-weight: bold;
 		padding: 2px;
@@ -60,20 +69,5 @@ footer{
 	.smp_searchform .search_button:hover{
 		background: #8DC21F;
 		color:#fff;
-	}	
-}
-/*----- Smp‚ÌCSS -----*/
-@media screen and (max-width:640px){
-	.twitter_share_button{
-		margin-left: 30%;
-	}
-	.smp_searchform{
-		margin-left: 12%;
-	}
-	.smp_searchform .search_field{
-		width:60%;
-	}
-	.smp_searchform .search_button{
-		width: 20%;
 	}
 }

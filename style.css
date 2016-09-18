@@ -44,6 +44,9 @@ main a{
 .clearfix{
 	clear: both;
 }
+.smpclear{
+	display: none;
+}
 
 .more_button a{
 	padding: 10px;
@@ -70,6 +73,10 @@ p{
 	font-family: 'Noto Sans Japanese', sans-serif;
 }
 
+main{
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
 a{
 	color: #8dc21f;
 }
@@ -79,6 +86,7 @@ h1,h2,h3{
 }
 h1{
 	background: #8DC21F;
+	border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
 	color: #fff;
 	padding: 5px;
 	padding-left: 20px;
@@ -86,7 +94,7 @@ h1{
 }
 h2{
 	border-bottom: solid 3px #5D8705;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 h3:before{
 	content: "●";
@@ -147,6 +155,10 @@ table tbody tr:nth-child(even) {
 
 /*----- smpのCSS -----*/
 @media screen and (max-width:640px){
+	.smpclear{
+		clear: both;
+	}
+
 	.smpbr{
 		display:inline;
 	}

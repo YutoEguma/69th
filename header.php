@@ -10,6 +10,9 @@
 	<!-- アイコン -->
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/mo-mo.ico">
 
+	<!-- viweport -->
+	<meta name="viewport" content="initial-scale=1.0">
+
 	<!-- CSSファイル -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"     type="text/css" media="screen">
 
@@ -63,7 +66,6 @@
 			<input id="menu_button" type="checkbox">
 			<div class="smp_menu_contents">
 				<?php wp_nav_menu( array( 'theme_location'=>'header-navi' ) ) ?>
-			</div>
 		</nav>
 		<div class="clearfix"></div>
 	</header>

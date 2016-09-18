@@ -63,7 +63,7 @@ header{
 
 /*--  --*/
 .searchform{
-	width: 10%;
+	width: 12%;
 	margin-top: 16px;
 	margin-right: 2%;
 	display: block;
@@ -90,8 +90,6 @@ header{
 	background: #8DC21F;
 	color:#fff;
 }
-
-
 
 /*---------------------
 
@@ -141,6 +139,7 @@ header{
 	.smp_menu .smp_menu_contents li{
 		transition: all 0.3s;
 		overflow: hidden;
+		height:0;
 	}
 	.smp_menu_contents a{
 		display: none;
@@ -188,8 +187,9 @@ header{
 	.smp_menu input:checked + .smp_menu_contents li.current-menu-item a{
 		color: #fff;
 	}
+	
 	.searchform{
-		display:none;
+		width: 15%;
 	}
 }
 
@@ -208,6 +208,10 @@ header{
 	.smp_menu label{
 		padding-left: 5px;
 		padding-right: 5px;
-		margin-right: 5px;
+		margin-right: 8%;
+	}
+
+	.searchform{
+		display:none;
 	}
 }
