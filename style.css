@@ -2,7 +2,6 @@
 	Theme name : Kyudaisai 69th for WP
 	Author : Exective Comitee of Kyudaisai 69th
 ---------------------------------------------------*/
-
 /*cssファイルのインポート*/
 @import url("css/normalize.css");
 @import url("css/home.css");
@@ -16,159 +15,173 @@
 @import url("css/contact.css");
 @import url("css/guest.css");
 @import url("css/coop.css");
-
-
 /*フォントファイルのインポート*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
 
 /*----- 全体のCSS -----*/
 /*----- pcのCSS -----*/
-body{
-	width: 100%;
-	margin: 0;
-	text-align: justify;
+body {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+
+    /*TODO ここでフォントサイズの指定*/
 }
 
-main{
-	width: 90%;
-	margin: 0 auto;
+main {
+    width: 90%;
+    margin: 0 auto;
 }
 
-main a{
-	text-decoration: none;
-	color: #5D8705;
-	margin: 1px;
-} 
-
-.clearfix{
-	clear: both;
-}
-.smpclear{
-	display: none;
+main a {
+    text-decoration: none;
+    color: #5D8705;
+    margin: 1px;
 }
 
-.more_button a{
-	padding: 10px;
-	margin: 5px;
-	border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
-	background: #CDEB8E;
-	border: solid 3px #8DC21F;
-	float: right;
-	color: #5D8705;
-	font-size: 20px;
-	font-weight: bold;
-	display: block;
-	text-decoration: none;
-}
-.more_button a:hover{
-	background: #8DC21F;
-	border: solid 3px #8DC21F;
-	color: #fff;
-}
-.more_button a:active{
-	box-shadow: 1px 1px 1px 1px #5D8705 inset;
-}
-p{
-	font-family: 'Noto Sans Japanese', sans-serif;
+.clearfix {
+    clear: both;
 }
 
-main{
-	font-family: 'Noto Sans Japanese', sans-serif;
+.smpclear {
+    display: none;
 }
 
-a{
-	color: #8dc21f;
+.more_button a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+    background: #CDEB8E;
+    border: solid 3px #8DC21F;
+    float: right;
+    color: #5D8705;
+
+    /*TODO remを使おう*/
+    font-size: 20px;
+
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
 }
 
-h1,h2,h3{
-	font-weight: bold;
-}
-h1{
-	background: #8DC21F;
-	border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
-	color: #fff;
-	padding: 5px;
-	padding-left: 20px;
-	margin-top: 30px;
-}
-h2{
-	border-bottom: solid 3px #5D8705;
-	margin-top: 30px;
-}
-h3:before{
-	content: "●";
-	color: #5D8705;
+.more_button a:hover {
+    background: #8DC21F;
+    border: solid 3px #8DC21F;
+    color: #fff;
 }
 
-table{
-	width: 100%;
-	max-width: 640px;
-	margin-bottom: 15px;
-	border-spacing: 0;
-	border: 1px solid #5D8705;
+.more_button a:active {
+    box-shadow: 1px 1px 1px 1px #5D8705 inset;
+}
+
+p {
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+main {
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+a {
+    color: #8dc21f;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    background: #8DC21F;
+    border-radius: 3px 3px 3px 3px / 3px 3px 3px 3px;
+    color: #fff;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+h2 {
+    border-bottom: solid 3px #5D8705;
+    margin-top: 30px;
+}
+
+h3:before {
+    content: "●";
+    color: #5D8705;
+}
+
+table {
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 15px;
+    border-spacing: 0;
+    border: 1px solid #5D8705;
 
 }
-table thead th{
-	background:#8dc21f;
-	color: #5D8705;
-	text-align: center;
-	border-bottom: 1px solid #5D8705;
+
+table thead th {
+    background: #8dc21f;
+    color: #5D8705;
+    text-align: center;
+    border-bottom: 1px solid #5D8705;
 }
 
 table tbody th {
-	font-weight: bold;
-	text-align: center;
-	height: 50px;
-	background-color: #8dc21f;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    background-color: #8dc21f;
 }
 
 table tbody tr:nth-child(odd) {
-	text-align: center;
-	height: 50px;
+    text-align: center;
+    height: 50px;
 }
+
 table tbody tr:nth-child(even) {
-	text-align: center;
-	height: 50px;
-	background-color: #CDEB8E;
+    text-align: center;
+    height: 50px;
+    background-color: #CDEB8E;
 }
 
-.smpbr{
-	display: none;
+.smpbr {
+    display: none;
 }
 
-.img_pc{
-	display: block;
-	width: 90%;
-	margin: 0 auto;
+.img_pc {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
 }
-.img_smp{
-	display: none;
+
+.img_smp {
+    display: none;
 }
 
 /*----- tabのCSS -----*/
-@media screen and (max-width:960px){
-	.pcbr{
-		display: none;
-	}
+@media screen and (max-width: 960px) {
+    .pcbr {
+        display: none;
+    }
 }
 
 /*----- smpのCSS -----*/
-@media screen and (max-width:640px){
-	.smpclear{
-		clear: both;
-	}
+@media screen and (max-width: 640px) {
+    .smpclear {
+        clear: both;
+    }
 
-	.smpbr{
-		display:inline;
-	}
+    .smpbr {
+        display: inline;
+    }
 
-	.img_pc{
-		display: none;
-	}
-	.img_smp{
-		display: block;
-		width: 90%;
-		margin: 0 auto;
-	}
+    .img_pc {
+        display: none;
+    }
+
+    .img_smp {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
